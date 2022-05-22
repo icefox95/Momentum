@@ -1,0 +1,104 @@
+/* 기본 모듈 */
+body {
+    animation: fadeIn 0.9s ease-in-out forwards;
+    background-color: beige;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hidden {
+    display: none;
+}
+/* 시계 모듈 */
+#clock {
+    font-size: 600%;
+    text-align: center;
+    opacity: 0.95;
+    color: white;
+}
+
+/* 로그인 및 인사 모듈 */
+#login-form {
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+    width: 35%;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.login-button {
+    font-size: 2rem;
+}
+
+#greeting {
+    color: white;
+    margin: 50px 0px;
+    font-size: 40px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    animation: fadeIn 0.5s linear;
+}
+
+/* 할일 목록 모듈 */
+#todo-form {
+    text-align: center;
+}
+
+#todo-form input {
+    width: 35%;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    opacity: 0.8;
+    font-size: 2rem;
+}
+
+#todo-list {
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+    color: white;
+}
+
+
+#todo-list li button {
+    background: none;
+    font-size: 1rem;
+    border: none;
+}
+
+/* 명언 모듈 */
+#quote {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    top: 93%;
+    right: 3%;
+    position: absolute;
+  }
+
+/* 날씨 모듈 */
+#weather {
+    font-size: 22px;
+    font-weight: bold;
+    position: fixed;
+    color: white;
+    top: 3%;
+    right: 3%;
+  }
